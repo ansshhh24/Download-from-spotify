@@ -27,6 +27,9 @@ def main():
     if "track" in url:
         songs = [get_track_info(url)]
     elif "playlist" in url:
+        playlist_folder_name = input("Enter a name for the playlist folder: ").strip()
+        playlist_folder_path = os.path.join("../music", playlist_folder_name)
+        os.makedirs(playlist_folder_path, exist_ok=True)
         songs = get_playlist_info(url)
 
     start = time.time()
