@@ -1,5 +1,5 @@
      
-     ## Getting started
+ ## Getting started
 1. Create a [Spotify developers account](https://developer.spotify.com/dashboard/)
 2. Create an app by clicking on *create an app* and giving name and description for the app
 3. Take a note of your *Client ID* and *Client Secret* from the app's page
